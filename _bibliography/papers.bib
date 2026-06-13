@@ -1,115 +1,212 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
-
-@book{einstein1920relativity,
-  title     = {Relativity: the Special and General Theory},
-  author    = {Einstein, Albert},
-  year      = {1920},
-  publisher = {Methuen & Co Ltd},
-  html      = {relativity.html}
+@UNPUBLISHED{Kebabci2026-mg,
+  title       = "A predicted cancer dependency map for paralog pairs",
+  author      = "Kebabci, Narod and Ajmal, Hamda and Adams, David J and Ryan,
+                 Colm J",
+  abstract    = "Abstract Background Genome-wide CRISPR screening has enabled
+                 the development of dependency maps in hundreds of cancer cell
+                 lines, facilitating the identification of genetic
+                 vulnerabilities associated with specific biomarkers. Paralogs,
+                 despite being common drug targets, are often missed in these
+                 screens as their individual disruption rarely causes a
+                 significant fitness defect. Combinatorial screens have
+                 revealed that paralog pairs are often synthetic lethal but
+                 that these effects are highly context specific. To develop
+                 paralogs as therapeutic targets we must identify which paralog
+                 pairs are synthetic lethal in which cancer contexts. Results
+                 We develop a machine learning classifier to predict cell-line
+                 specific synthetic lethality between paralog pairs. We
+                 demonstrate the utility of features derived from the cell-line
+                 specific expression and essentiality of the pair and their
+                 protein-protein interaction partners for this purpose. We
+                 evaluate our predictions across multiple scenarios: predicting
+                 for the same pairs in unseen cell lines, for new gene pairs in
+                 seen cell lines, and for entirely uncharacterized pairs in
+                 unseen cell lines. We show that we can make predictions across
+                 all scenarios. We validate our predictions using independent
+                 combinatorial CRISPR screens and show that the agreement
+                 between our predictions and published experiments approaches
+                 the agreement across experiments. Conclusions Our classifier
+                 predicts cell-line-specific synthetic lethality between
+                 paralog pairs and provides insights into the underlying
+                 features driving these interactions. We make our predictions
+                 for 1,005 cell lines available as a resource to facilitate the
+                 discovery of context-specific paralog synthetic lethalities
+                 and to guide the design of more targeted combinatorial
+                 screens.",
+  journal     = "bioRxiv",
+  institution = "bioRxiv",
+  month       =  jan,
+  year        =  2026,
+  doi         =  {10.64898/2026.01.19.700065},
+  copyright   = "http://creativecommons.org/licenses/by/4.0/"
 }
 
-@book{einstein1956investigations,
-  bibtex_show = {true},
-  title       = {Investigations on the Theory of the Brownian Movement},
-  author      = {Einstein, Albert},
-  year        = {1956},
-  publisher   = {Courier Corporation},
-  preview     = {brownian-motion.gif}
+
+@ARTICLE{Harle2025-pw,
+  title     = "A compendium of synthetic lethal gene pairs defined by extensive
+               combinatorial pan-cancer {CRISPR} screening",
+  author    = "Harle, Victoria and Offord, Victoria and G{\"o}kba{\u g}, Birkan
+               and Fotopoulos, Lazaros and Williams, Thomas and Alexander,
+               Diana and Mehta, Ishan and Thompson, Nicola A and
+               Olvera-Le{\'o}n, Rebeca and Peidli, Stefan and Iyer, Vivek and
+               Gon{\c c}alves, Emanuel and Kebabci, Narod and De Kegel, Barbara
+               and van de Haar, Joris and Li, Lang and Ryan, Colm J and Adams,
+               David J",
+  abstract  = "BACKGROUND: Synthetic lethal interactions are attractive
+               therapeutic candidates as they enable selective targeting of
+               cancer cells in which somatic alterations have disrupted one
+               member of a synthetic lethal gene pair while leaving normal
+               tissues untouched, thus minimising off-target toxicity. Despite
+               this potential, the number of well-established and validated
+               synthetic lethal gene pairs is modest. RESULTS: We generate a
+               dual-guide CRISPR/Cas9 Library and analyse 472 predicted
+               synthetic lethal pairs in 27 cancer cell Lines from melanoma,
+               pancreatic and lung cancer Lineages. We report a robust
+               collection of 117 genetic interactions within and across cancer
+               types and explore their candidacy as therapeutic targets. We
+               show that SLC25A28 is an attractive target since its synthetic
+               lethal paralog partner SLC25A37 is homozygously deleted
+               pan-cancer. We generate knockout mice for Slc25a28 revealing
+               that, except for cataracts in some mice, these animals are
+               normal; suggesting inhibition of SLC25A28 is unlikely to be
+               associated with profound toxicity. CONCLUSIONS: We provide and
+               validate an extensive collection of synthetic lethal
+               interactions across cancer types.",
+  journal   = "Genome Biol.",
+  publisher = "Springer Science and Business Media LLC",
+  volume    =  26,
+  number    =  1,
+  pages     = "284",
+  month     =  sep,
+  year      =  2025,
+  doi       = {10.1186/s13059-025-03737-w},
+  keywords  = "CRISPR; Epistasis; High-throughput screening; Synthetic
+               lethality",
+  copyright = "https://creativecommons.org/licenses/by/4.0",
+  language  = "en"
 }
 
-@article{einstein1950meaning,
-  abbr        = {AJP},
-  bibtex_show = {true},
-  title       = {The meaning of relativity},
-  author      = {Einstein, Albert and Taub, AH},
-  journal     = {American Journal of Physics},
-  volume      = {18},
-  number      = {6},
-  pages       = {403--404},
-  year        = {1950},
-  publisher   = {American Association of Physics Teachers}
+@ARTICLE{Ajmal2025-vh,
+  title     = "Benchmarking genetic interaction scoring methods for identifying
+               synthetic lethality from combinatorial {CRISPR} screens",
+  author    = "Ajmal, Hamda and Nandi, Sutanu and Kebabci, Narod and Ryan, Colm
+               J",
+  abstract  = "Synthetic lethality (SL) is an extreme form of negative genetic
+               interaction, where simultaneous disruption of two non-essential
+               genes causes cell death. SL can be exploited to develop cancer
+               therapies that target tumour cells with specific mutations,
+               potentially limiting toxicity. Pooled combinatorial CRISPR
+               screens, where two genes are simultaneously perturbed and the
+               resulting impacts on fitness estimated, are now widely used for
+               the identification of SL targets in cancer. Various scoring
+               methods have been developed to infer SL genetic interactions
+               from these screens, but there has been no systematic comparison
+               of these approaches. Here, we performed a comprehensive analysis
+               of five scoring methods for SL detection using five
+               combinatorial CRISPR datasets. We assessed the performance of
+               each algorithm on each screen dataset using two different
+               benchmarks of paralog SL. We find that no single method performs
+               best across all screens but identify two methods that perform
+               well across most datasets. Of these two scores, Gemini-Sensitive
+               has an available R package that can be applied to most screen
+               designs, making it a reasonable first choice.",
+  journal   = "NAR Genom. Bioinform.",
+  publisher = "Oxford University Press (OUP)",
+  volume    =  7,
+  number    =  3,
+  pages     = "lqaf129",
+  month     =  sep,
+  year      =  2025,
+  doi       = {10.1093/nargab/lqaf129},
+  copyright = "https://creativecommons.org/licenses/by/4.0/",
+  language  = "en"
 }
 
-@article{PhysRev.47.777,
-  abbr              = {PhysRev},
-  title             = {Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author            = {Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract          = {In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal           = {Phys. Rev.},
-  location          = {New Jersey},
-  volume            = {47},
-  issue             = {10},
-  pages             = {777--780},
-  numpages          = {0},
-  year              = {1935},
-  month             = {May},
-  publisher         = aps,
-  doi               = {10.1103/PhysRev.47.777},
-  url               = {https://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html              = {https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf               = {example_pdf.pdf},
-  altmetric         = {248277},
-  dimensions        = {true},
-  google_scholar_id = {qyhmnyLat1gC},
-  video             = {https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info   = {. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation        = {* Example use of superscripts<br>† Albert Einstein},
-  selected          = {true},
-  inspirehep_id     = {3255}
+@ARTICLE{Ryan2023-pw,
+  title     = "Targeting synthetic lethal paralogs in cancer",
+  author    = "Ryan, Colm J and Mehta, Ishan and Kebabci, Narod and Adams,
+               David J",
+  abstract  = "Synthetic lethal interactions, where mutation of one gene
+               renders cells sensitive to inhibition of another gene, can be
+               exploited for the development of targeted therapeutics in
+               cancer. Pairs of duplicate genes (paralogs) often share common
+               functionality and hence are a potentially rich source of
+               synthetic lethal interactions. Because the majority of human
+               genes have paralogs, exploiting such interactions could be a
+               widely applicable approach for targeting gene loss in cancer.
+               Moreover, existing small-molecule drugs may exploit synthetic
+               lethal interactions by inhibiting multiple paralogs
+               simultaneously. Consequently, the identification of synthetic
+               lethal interactions between paralogs could be extremely
+               informative for drug development. Here we review approaches to
+               identify such interactions and discuss some of the challenges of
+               exploiting them.",
+  journal   = "Trends Cancer",
+  publisher = "Elsevier BV",
+  volume    =  9,
+  number    =  5,
+  pages     = "397--409",
+  month     =  may,
+  year      =  2023,
+  doi       = {10.1016/j.trecan.2023.02.002},
+  keywords  = "CRISPR screening; paralogs; synthetic lethality; target
+               identification",
+  copyright = "http://creativecommons.org/licenses/by/4.0/",
+  language  = "en"
 }
 
-@article{einstein1905molekularkinetischen,
-  title     = {{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author    = {Einstein, A.},
-  journal   = {Annalen der physik},
-  volume    = {322},
-  number    = {8},
-  pages     = {549--560},
-  year      = {1905},
-  publisher = {Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr    = {Ann. Phys.},
-  title   = {Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author  = {Einstein, A.},
-  journal = {Ann. Phys.},
-  volume  = {17},
-  pages   = {549--560},
-  year    = {1905}
-}
-
-@article{einstein1905electrodynamics,
-  title  = {On the electrodynamics of moving bodies},
-  author = {Einstein, A.},
-  year   = {1905}
-}
-
-@article{einstein1905photoelectriceffect,
-  bibtex_show = {true},
-  abbr        = {Ann. Phys.},
-  title       = {{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}},
-  author      = {Albert Einstein},
-  abstract    = {This is the abstract text.},
-  journal     = {Ann. Phys.},
-  volume      = {322},
-  number      = {6},
-  pages       = {132--148},
-  year        = {1905},
-  doi         = {10.1002/andp.19053220607},
-  award       = {Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name  = {Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show = {true},
-  title       = {Letters on wave mechanics},
-  author      = {Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year        = {1967},
-  publisher   = {Vision},
-  preview     = {wave-mechanics.gif},
-  abbr        = {Vision}
+@ARTICLE{Kebabci2022-im,
+  title     = "Toward compilation of balanced protein stability data sets:
+               Flattening the {$\Delta$$\Delta$G} curve through systematic
+               enrichment",
+  author    = "Kebabci, Narod and Timucin, Ahmet Can and Timucin, Emel",
+  abstract  = "Often studies analyzing stability data sets and/or predictors
+               ignore neutral mutations and use a binary classification scheme
+               labeling only destabilizing and stabilizing mutations.
+               Recognizing that highly concentrated neutral mutations interfere
+               with data set quality, we have explored three protein stability
+               data sets: S2648, PON-tstab, and the symmetric Ssym that differ
+               in size and quality. A characteristic leptokurtic shape in the
+               $\Delta$$\Delta$G distributions of all three data sets including
+               the curated and symmetric ones was reported due to concentrated
+               neutral mutations. To further investigate the impact of neutral
+               mutations on $\Delta$$\Delta$G predictions, we have
+               comprehensively assessed the performance of 11 predictors on the
+               PON-tstab data set. Correlation and error analyses showed that
+               all of the predictors performed the best on the neutral
+               mutations, while their performance became gradually worse as the
+               $\Delta$$\Delta$G of the mutations departed further from the
+               neutral zone regardless of the direction, implying a bias toward
+               dense mutations. To this end, after unraveling the role of
+               concentrated neutral mutations in biases of stability data sets,
+               we described a systematic enrichment approach to balance the
+               $\Delta$$\Delta$G distributions. Before enrichment, mutations
+               were clustered based on their biochemical and/or structural
+               features, and then three mutations were selected from every 2
+               kcal/mol of each cluster. Upon implementation of this approach
+               by distinct clustering schemes, we generated five subsets
+               varying in size and $\Delta$$\Delta$G distributions. All subsets
+               showed improved $\Delta$$\Delta$G and frequency distributions.
+               We ultimately reported that the errors toward enriched subsets
+               were higher than those toward the parent data sets, confirming
+               the enrichment of difficult-to-predict mutations in the subsets.
+               In summary, we elaborated the prediction bias toward a
+               concentrated neutral zone and also implemented a rational
+               strategy to tackle this and other forms of biases. Ultimately,
+               this study equipping us with an extended view of shortcomings of
+               stability data sets is a step taken toward development of an
+               unbiased predictor.",
+  journal   = "J. Chem. Inf. Model.",
+  publisher = "American Chemical Society (ACS)",
+  volume    =  62,
+  number    =  5,
+  pages     = "1345--1355",
+  month     =  mar,
+  year      =  2022,
+  doi       = {10.1021/acs.jcim.2c00054},
+  copyright = "https://creativecommons.org/licenses/by-nc-nd/4.0/",
+  language  = "en"
 }
