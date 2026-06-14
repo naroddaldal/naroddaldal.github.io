@@ -1,8 +1,7 @@
 ---
 layout: page
-title: presentations
 permalink: /presentations/
-description: A growing collection of your cool projects.
+description: Short talks and poster presentations
 nav: true
 nav_order: 3
 display_categories: [work, fun]
