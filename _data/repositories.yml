@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
-
+  - naroddaldal
+  
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - cancergenetics/context_specific_paralog_SL
+  - cancergenetics/paralogmap
+  - naroddaldal/druggable_paralogs
+  - naroddaldal/gRoR
+  - cancergenetics/UCD_cancer_data_lab
