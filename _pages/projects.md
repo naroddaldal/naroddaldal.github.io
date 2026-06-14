@@ -1,6 +1,7 @@
 ---
 layout: page
 permalink: /presentations/
+title: presentations
 description: Short talks and poster presentations
 nav: true
 nav_order: 3
