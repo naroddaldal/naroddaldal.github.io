@@ -2,7 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: # the website title (if blank, full name will be used instead)
+title: blank # keep as `blank` to display your full name; set to any string to display that instead
 first_name: Narod
 #middle_name: 
 last_name: Daldal

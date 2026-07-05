@@ -1,9 +1,9 @@
 cv:
   name: Narod Daldal
-  label: Researcher
+  #label: Researcher
   email: narod.daldal@gmail.com
   location: Dublin, Ireland
-  image: ""
+  #image: ""
   summary: "Data scientist with a PhD in Bioinformatics, funded by Marie Skłodowska-Curie Actions Doctoral Fellowship. 5+ years of experience in developing machine learning workflows on large-scale biomedical data to identify and prioritise therapeutic targets in cancer. Built a publicly available web platform to support wet lab scientists in designing libraries for CRISPR screens. Experienced across academic and industrial environments, including a placement at Wellcome Sanger Institute. Skilled in predictive modelling, workflow automation using Python and R, and translating research challenges in biology into solutions."
 
   social_networks:
@@ -14,12 +14,12 @@ cv:
     - network: LinkedIn
       username: narodkebabci
 
-  # address:
-  #   street: 2712 Broadway St
-  #   city: San Francisco
-  #   region: California
-  #   postalCode: CA 94115
-  #   countryCode: US
+  address:
+   # street:
+    city: Dublin
+    region: Ireland
+   # postalCode: 
+   # countryCode: 
 
   sections:
     Education:
@@ -78,7 +78,7 @@ cv:
         summary: "Completed a 3-month placement (April–July 2024) under the supervision of Dr. David Adams, investigating the role of paralogs in cancer and their potential as therapeutic targets."
         highlights:
           - Applied linear modelling to pan-cancer CRISPR screening data to identify cancer type specific genetic interactions across melanoma, lung, and pancreatic cell line model, supporting prioritisation of therapeutic targets
-          - Quantified correlations between CRISPR scores and gene expression across cancer cell lines to identify expression associated factors contributing to cancer type specific genetic interactions.
+          - Quantified correlations between CRISPR dependency scores and RNA expression across cancer cell lines to identify gene expression associated factors contributing to cancer type specific genetic interactions.
           - Co-authored research published in Genome Biology funded by AstraZeneca and the Wellcome Trust
 
       - company: Eternans Ltd.
