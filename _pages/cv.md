@@ -12,12 +12,23 @@ toc:
 ---
 
 <style>
-  /* Hide the default <li> bullet next to each CV entry's date badge */
-  .cv .timeline > li,
-  .cv .card ul > li.timeline-entry {
-    list-style: none;
+  /* Kill default list bullets in every CV section */
+  #content ul,
+  .post ul,
+  article ul {
+    list-style: none !important;
+    padding-left: 0 !important;
   }
-  .cv ul {
-    padding-left: 0;
+  #content ul li,
+  .post ul li,
+  article ul li {
+    list-style: none !important;
+  }
+  /* Keep bullets on nested lists (the actual highlight bullets) */
+  #content ul ul,
+  .post ul ul,
+  article ul ul {
+    list-style: disc !important;
+    padding-left: 1.5em !important;
   }
 </style>
