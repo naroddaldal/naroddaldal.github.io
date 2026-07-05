@@ -1,50 +1,60 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Narod Daldal
+  label: Researcher
+  email: narod.daldal@gmail.com
+  location: Dublin, Ireland
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: "Data scientist with a PhD in Bioinformatics, funded by Marie Skłodowska-Curie Actions Doctoral Fellowship. 5+ years of experience in developing machine learning workflows on large-scale biomedical data to identify and prioritise therapeutic targets in cancer. Built a publicly available web platform to support wet lab scientists in designing libraries for CRISPR screens. Experienced across academic and industrial environments, including a placement at Wellcome Sanger Institute. Skilled in predictive modelling, workflow automation using Python and R, and translating research challenges in biology into solutions."
 
   social_networks:
     - network: X
-      username: AlbertEinstein
+      username: naar_k
     - network: GitHub
-      username: example
+      username: naroddaldal
     - network: LinkedIn
-      username: example
+      username: narodkebabci
 
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  # address:
+  #   street: 2712 Broadway St
+  #   city: San Francisco
+  #   region: California
+  #   postalCode: CA 94115
+  #   countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: University College Dublin
+        location: Dublin, Ireland
+        #url: https://www.uzh.ch/
+        area: Bioinformatics and Systems Biology
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+        start_date: 2021
+        end_date: 2026
+        #score: ""
+        #courses: "Theory of Relativity"
+        #highlights:
+        #  - Description 1.
+        #  - Description 2.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Acibadem MAA University
+        location: Istanbul, Türkiye
+        area: Biostatistics and Bioinformatics
+        studyType: Master of Science
+        start_date: 2018
+        end_date: 2021
+        #highlights:
+        #  - Description 1.
+        #  - Description 2.
+
+      - institution: Istanbul Bilgi University
+        location: Istanbul, Türkiye
+        area: Bioengineering
+        studyType: Bachelor of Science
+        start_date: 2010
+        end_date: 2014
+        #highlights:
+        #  - Description 1.
+        #  - Description 2.
 
     Experience:
       - company: Institute for Advanced Study, Princeton University
@@ -84,32 +94,27 @@ cv:
         start_date: 1909
         end_date: 1911
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+    # Volunteer:
+    #   - company: People's Climate March
+    #     position: Lead Organizer
+    #     location: Zurich, Switzerland
+    #     start_date: 2014-04-01
+    #     end_date: 2015-07-01
+    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    #     highlights:
+    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #       - "Men of the year 2014 by Time magazine"
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: Marie Skłodowska-Curie Actions Doctoral Fellowship
+        date: 2021
+        awarder: European Commission
+        summary: Competitive fellowship funding my PhD in Bioinformatics, awarded under the Horizon 2020 Marie Skłodowska-Curie Actions programme.
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - title: Poster Commendation, UCD Conway Festival of Research & Innovation
+        date: 2022
+        awarder: UCD Conway Institute, Dublin, Ireland
+        summary: Poster received commendation from the review panel at the UCD Conway Festival of Research & Innovation Conference.
 
     Publications:
       - title: Zur Elektrodynamik bewegter Körper
@@ -143,11 +148,14 @@ cv:
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
     Languages:
-      - name: German
+      - name: Armenian
         summary: "Native speaker"
 
       - name: English
         summary: "Fluent"
+
+      - name: Turkish
+        summary: "Native speaker"
 
     Interests:
       - name: Physics
