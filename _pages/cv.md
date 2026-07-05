@@ -12,23 +12,13 @@ toc:
 ---
 
 <style>
-  /* Kill default list bullets in every CV section */
-  #content ul,
-  .post ul,
-  article ul {
+  /* Remove outer bullets on CV entries (Experience / Education / Awards),
+     without touching the highlight bullets inside each entry */
+  .cv .list-group.list-group-flush {
     list-style: none !important;
     padding-left: 0 !important;
   }
-  #content ul li,
-  .post ul li,
-  article ul li {
+  .cv .list-group.list-group-flush > .list-group-item {
     list-style: none !important;
-  }
-  /* Keep bullets on nested lists (the actual highlight bullets) */
-  #content ul ul,
-  .post ul ul,
-  article ul ul {
-    list-style: disc !important;
-    padding-left: 1.5em !important;
   }
 </style>
