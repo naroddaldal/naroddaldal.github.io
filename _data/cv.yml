@@ -58,10 +58,10 @@ cv:
 
     Experience:
       - company: University College Dublin
-        position: PhD Researcher
+        position: Doctoral Researcher
         location: Dublin, Ireland
-        start_date: 2021
-        end_date: 2026
+        start_date: 12.2021
+        end_date: 05.2026
         #summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
         highlights:
           - Developed a machine learning workflow in Python to predict cell line specific synthetic lethal interactions between paralog pairs to guide therapeutic target discovery in cancer
@@ -70,32 +70,34 @@ cv:
           - Systematically integrated drug and target annotations from open-source databases with results of multiple independent experimental CRISPR screens to prioritise protein families as candidate targets
           - Authored and co-authored 5 peer-reviewed publications in journals including Genome Biology, Trends in Cancer and NAR Genomics and Bioinformatics; a first-author paper currently under review at <em>Genome Medicine</em> 
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
+      - company: Wellcome Sanger Institute
+        position: Visiting Doctoral Researcher
+        location: Hinxton, Cambridgeshire, United Kingdom
+        start_date: 04.2024
+        end_date: 07.2024
+        summary: Conducted a 3-month placement at the Wellcome Sanger Institute, under the supervision of Dr. David Adams, to investigate the role of paralog genes in cancer and their potential as therapeutic targets. 
         highlights:
-          - Description 1.
-          - Description 2.
+          - Applied linear modelling to pan-cancer CRISPR screening data to identify cancer type specific genetic interactions across melanoma, lung, and pancreatic cell line model, supporting prioritisation of therapeutic targets
+          - Quantified correlations between CRISPR scores and gene expression across cancer cell lines to identify expression associated factors contributing to cancer type specific genetic interactions. 
+          - Co-authored research published in Genome Biology funded by AstraZeneca and the Wellcome Trust 
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: Eternans Ltd.
+        position: Researcher
+        location: Istanbul, Turkey
+        start_date: 06.2018
+        end_date: 03.2020
+        highlights:
+          - Generated senescent cell models by inducing senescence in fibroblast cell lines, then screened novel senolytic peptide candidates against these and cancer cell lines using cell viability assays to quantify efficacy 
+          - Analysed the resulting data to rank and prioritise lead candidates, presenting findings in weekly meetings and contributing to decision making alongside collaborators at Imperial College London, UK and Oregon Health & Science University, USA
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
-
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+      - company: Mettler Toledo, Turkey
+        position: Marketing Communications Specialist
+        location: Istanbul, Turkey
+        start_date: 01.2015
+        end_date: 01.2018
+        highlights:
+          - Prepared technical marketing materials such as brochures, whitepapers, and seminar content for precision instruments used across pharma, chemistry, and petrochemistry industries 
+          -	Collaborated with the sales team to translate and localize technical product specifications, supporting adoption of the products among scientific and industrial stakeholders
 
     # Volunteer:
     #   - company: People's Climate March
@@ -119,36 +121,41 @@ cv:
         awarder: UCD Conway Institute, Dublin, Ireland
         summary: Poster received commendation from the review panel at the UCD Conway Festival of Research & Innovation Conference.
 
-    Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+    # Publications:
+    #   - title: Zur Elektrodynamik bewegter Körper
+    #     authors:
+    #       - Albert Einstein
+    #     publisher: Annalen der Physik
+    #     releaseDate: 1905-06-30
+    #     url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
+    #     summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+    #   - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+    #     authors:
+    #       - Albert Einstein
+    #     publisher: Annalen der Physik
+    #     releaseDate: 1905-03-18
+    #     url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
+    #     summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+    #   - title: Die Grundlage der allgemeinen Relativitätstheorie
+    #     authors:
+    #       - Albert Einstein
+    #     publisher: Annalen der Physik
+    #     releaseDate: 1916-03-20
+    #     url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
+    #     summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
 
     Skills:
-      - name: Physics
-        level: Master
+      - name: Machine Learning & AI
+        level: ""
         icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Proficient in supervised machine learning algorithms (Random Forest, XGBoost, SVM); experienced in optimizing models via repeated k-fold cross validation, hyperparameter tuning, and calibration curves, model interpretation via calculating SHAP values"
+
+      - name: Programming & Data Science
+        level: ""
+        icon: fa-solid fa-hashtag
+        keywords: "Python (Pandas, Numpy, Scipy, Scikit-Learn, Seaborn, Matplotlib, SHAP, PyTorch, PySpark) and R (dplyr, ggplot2) for data analysis and visualization; experience reviewing and debugging scripts as a teaching assistant in the School of Computer Science; skilled in running workflows on HPC systems "
 
     Languages:
       - name: Armenian
@@ -165,36 +172,36 @@ cv:
         icon: fa-solid fa-tag
         keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+    # Certificates:
+    #   - name: Machine Learning
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-location-dot
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+    #   - name: Quantum Computing
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-tag
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    #   - name: Quantum Information
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-envelope
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+    # Projects:
+    #   - name: Quantum Computing
+    #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    #     highlights:
+    #       - Quantum Teleportation
+    #       - Quantum Cryptography
+    #     start_date: 2018-01-01
+    #     end_date: 2018-01-01
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    # References:
+    #   - name: Professor John Doe
+    #     icon: fa-solid fa-laptop
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    #   - name: Professor Jane Smith
+    #     icon: fa-solid fa-thumbtack
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
