@@ -114,15 +114,20 @@ cv:
     #       - "Men of the year 2014 by Time magazine"
 
     Awards:
+      - title: Poster Commendation, UCD Conway Festival of Research & Innovation
+        date: 2022
+        awarder: UCD Conway Institute, Dublin, Ireland
+        summary: Poster received commendation from the review panel at the UCD Conway Festival of Research & Innovation Conference.
+
       - title: Marie Skłodowska-Curie Actions Doctoral Fellowship
         date: 2021
         awarder: European Commission
         summary: Competitive fellowship funding my PhD in Bioinformatics and Systems Biology, awarded under the Horizon 2020 Marie Skłodowska-Curie Actions programme.
 
-      - title: Poster Commendation, UCD Conway Festival of Research & Innovation
-        date: 2022
-        awarder: UCD Conway Institute, Dublin, Ireland
-        summary: Poster received commendation from the review panel at the UCD Conway Festival of Research & Innovation Conference.
+      - title: TÜBİTAK ARDEB 1001 Graduate Scholarship
+        date: 2020
+        awarder: The Scientific and Technological Research Council of Turkey (TÜBİTAK)
+        summary: Competitive scholarship funding my MSc in Biostatistics and Bioinformatics, awarded under the TÜBİTAK ARDEB 1001 programme.
 
     # Publications:
     #   - title: Zur Elektrodynamik bewegter Körper
