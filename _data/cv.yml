@@ -68,7 +68,7 @@ cv:
           - Integrated large-scale public datasets, including transcriptomics, CRISPR dependency scores, somatic mutation profiles, protein–protein interaction networks, and gene ontology annotations to engineer 16 predictive features for 5,000 gene pairs across 11 cancer cell lines and build training and testing datasets for supervised machine learning models
           - Designed and deployed a publicly accessible platform that translates ML model outputs into an interactive target prioritisation tool, enabling scientists without coding experience to design large-scale CRISPR screens
           - Systematically integrated drug and target annotations from open-source databases such as OpenTargets, ChEMBL with results of multiple independent combinatorial CRISPR screens to prioritise protein families as candidate therapeutic targets
-          - Authored and co-authored 5 peer-reviewed publications in journals including <em>Genome Biology</em>, <em>Trends in Cancer</em> and <em>NAR Genomics and Bioinformatics</em>; a first-author paper currently under review at <em>Genome Medicine</em> 
+          - Authored and co-authored 5 peer-reviewed publications in journals including <em>Genome Biology</em>, <em>Trends in Cancer</em> and <em>NAR Genomics and Bioinformatics</em>; a first-author paper currently under review at <em>Genome Medicine</em>
 
       - company: Wellcome Sanger Institute
         position: Visiting Doctoral Researcher
@@ -78,8 +78,8 @@ cv:
         summary: "Completed a 3-month placement (April–July 2024) under the supervision of Dr. David Adams, investigating the role of paralogs in cancer and their potential as therapeutic targets."
         highlights:
           - Applied linear modelling to pan-cancer CRISPR screening data to identify cancer type specific genetic interactions across melanoma, lung, and pancreatic cell line model, supporting prioritisation of therapeutic targets
-          - Quantified correlations between CRISPR scores and gene expression across cancer cell lines to identify expression associated factors contributing to cancer type specific genetic interactions. 
-          - Co-authored research published in Genome Biology funded by AstraZeneca and the Wellcome Trust 
+          - Quantified correlations between CRISPR scores and gene expression across cancer cell lines to identify expression associated factors contributing to cancer type specific genetic interactions.
+          - Co-authored research published in Genome Biology funded by AstraZeneca and the Wellcome Trust
 
       - company: Eternans Ltd.
         position: Researcher
@@ -96,7 +96,7 @@ cv:
         start_date: "2015-01"
         end_date: "2018-01"
         highlights:
-          - Executed email campaigns using Salesforce and analysed performance metrics, including click-through rates, conversion rates, and web analytics dashboards, to improve lead generation and digital engagement. 
+          - Executed email campaigns using Salesforce and analysed performance metrics, including click-through rates, conversion rates, and web analytics dashboards, to improve lead generation and digital engagement.
           - Supported website localisation and updated landing-page content to improve product adoption and communication with local customers.
           - Collaborated with third-party agencies, and sales teams to prepare and proofread technical marketing materials, including brochures and whitepapers for precision instruments.
           - Managed LinkedIn content campaigns by preparing structured weekly posts to increase brand awareness, and generate leads for the sales team.
@@ -151,7 +151,7 @@ cv:
 
     Skills:
       - name: Machine Learning & AI
-       # level: 
+        # level:
         icon: fa-solid fa-laptop-code
         keywords: "Proficient in supervised machine learning algorithms (Random Forest, XGBoost, SVM); experienced in optimizing models via repeated k-fold cross validation, hyperparameter tuning, and calibration curves, model interpretation via calculating SHAP values"
 
@@ -174,7 +174,7 @@ cv:
       - name: Scientific Communication
         icon: fa-solid fa-comments
         keywords: "Peer-reviewed publications, manuscript writing, proof-reading grant applications, cross-functional collaboration with computational and experimental scientists, conference presentations"
-      
+
       - name: Soft Skills
         icon: fa-solid fa-comments
         keywords: "Teamwork, communication with technical and non-technical audiences, project management, data management planning, organisation, and problem solving"
