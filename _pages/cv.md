@@ -10,3 +10,14 @@ cv_format: rendercv # options: rendercv, jsonresume
 toc:
   sidebar: left
 ---
+
+<style>
+  /* Hide the default <li> bullet next to each CV entry's date badge */
+  .cv .timeline > li,
+  .cv .card ul > li.timeline-entry {
+    list-style: none;
+  }
+  .cv ul {
+    padding-left: 0;
+  }
+</style>
