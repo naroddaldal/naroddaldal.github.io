@@ -60,22 +60,22 @@ cv:
       - company: University College Dublin
         position: Doctoral Researcher
         location: Dublin, Ireland
-        start_date: 12.2021
-        end_date: 05.2026
+        start_date: "2021-12"
+        end_date: "2026-05"
         #summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
         highlights:
           - Developed a machine learning workflow in Python to predict cell line specific synthetic lethal interactions between paralog pairs to guide therapeutic target discovery in cancer
           - Integrated large-scale public datasets, including transcriptomics, CRISPR dependency scores, somatic mutation profiles, protein–protein interaction networks, and gene ontology annotations to engineer 16 predictive features for 5,000 gene pairs across 11 cancer cell lines and build training and testing datasets for supervised machine learning models
           - Designed and deployed a publicly accessible platform that translates ML model outputs into an interactive target prioritisation tool, enabling scientists without coding experience to design large-scale CRISPR screens
           - Systematically integrated drug and target annotations from open-source databases with results of multiple independent experimental CRISPR screens to prioritise protein families as candidate targets
-          - Authored and co-authored 5 peer-reviewed publications in journals including Genome Biology, Trends in Cancer and NAR Genomics and Bioinformatics; a first-author paper currently under review at <em>Genome Medicine</em> 
+          - Authored and co-authored 5 peer-reviewed publications in journals including <em>Genome Biology</em>, <em>Trends in Cancer</em> and <em>NAR Genomics and Bioinformatics</em>; a first-author paper currently under review at <em>Genome Medicine</em> 
 
       - company: Wellcome Sanger Institute
         position: Visiting Doctoral Researcher
         location: Hinxton, Cambridgeshire, United Kingdom
-        start_date: 04.2024
-        end_date: 07.2024
-        summary: Conducted a 3-month placement at the Wellcome Sanger Institute, under the supervision of Dr. David Adams, to investigate the role of paralog genes in cancer and their potential as therapeutic targets. 
+        start_date: "2024-04"
+        end_date: "2024-07"
+        summary: Completed a 3-month placement under the supervision of Dr. David Adams, investigating the role of paralogs in cancer and their potential as therapeutic targets. 
         highlights:
           - Applied linear modelling to pan-cancer CRISPR screening data to identify cancer type specific genetic interactions across melanoma, lung, and pancreatic cell line model, supporting prioritisation of therapeutic targets
           - Quantified correlations between CRISPR scores and gene expression across cancer cell lines to identify expression associated factors contributing to cancer type specific genetic interactions. 
@@ -84,8 +84,8 @@ cv:
       - company: Eternans Ltd.
         position: Researcher
         location: Istanbul, Turkey
-        start_date: 06.2018
-        end_date: 03.2020
+        start_date: "2018-06"
+        end_date: "2020-03"
         highlights:
           - Generated senescent cell models by inducing senescence in fibroblast cell lines, then screened novel senolytic peptide candidates against these and cancer cell lines using cell viability assays to quantify efficacy 
           - Analysed the resulting data to rank and prioritise lead candidates, presenting findings in weekly meetings and contributing to decision making alongside collaborators at Imperial College London, UK and Oregon Health & Science University, USA
@@ -93,8 +93,8 @@ cv:
       - company: Mettler Toledo, Turkey
         position: Marketing Communications Specialist
         location: Istanbul, Turkey
-        start_date: 01.2015
-        end_date: 01.2018
+        start_date: "2015-01"
+        end_date: "2018-01"
         highlights:
           - Prepared technical marketing materials such as brochures, whitepapers, and seminar content for precision instruments used across pharma, chemistry, and petrochemistry industries 
           - Collaborated with the sales team to translate and localize technical product specifications, supporting adoption of the products among scientific and industrial stakeholders
@@ -148,14 +148,33 @@ cv:
 
     Skills:
       - name: Machine Learning & AI
-        level: ""
+       # level: 
         icon: fa-solid fa-hashtag
         keywords: "Proficient in supervised machine learning algorithms (Random Forest, XGBoost, SVM); experienced in optimizing models via repeated k-fold cross validation, hyperparameter tuning, and calibration curves, model interpretation via calculating SHAP values"
 
       - name: Programming & Data Science
-        level: ""
         icon: fa-solid fa-hashtag
-        keywords: "Python (Pandas, Numpy, Scipy, Scikit-Learn, Seaborn, Matplotlib, SHAP, PyTorch, PySpark) and R (dplyr, ggplot2) for data analysis and visualization; experience reviewing and debugging scripts as a teaching assistant in the School of Computer Science; skilled in running workflows on HPC systems "
+        keywords: "Python (Pandas, Numpy, Scipy, Scikit-Learn, Seaborn, Matplotlib, SHAP, PyTorch, PySpark) and R (dplyr, ggplot2) for data analysis and visualization; experience reviewing and debugging scripts as a teaching assistant in the School of Computer Science; skilled in running workflows on HPC systems"
+
+      - name: Biology
+        icon: fa-solid fa-hashtag
+        keywords: "Strong foundation in molecular biology, cell biology, genetics, cancer biology, and immunology; working experience with multi-omics data integration from public databases"
+
+      - name: Structural Biology
+        icon: fa-solid fa-hashtag
+        keywords: "Hands-on experience in molecular docking tools (HADDOCK, ClusPro), and protein stability prediction tools (FoldX, DynaMut2, etc.); Benchmarked 11 protein stability predictors using correlation, MAE/MSE, and Bland–Altman agreement analysis, revealing performance inflation caused by dataset imbalance (MSc thesis)"
+
+      - name: Experimental Experience
+        icon: fa-solid fa-hashtag
+        keywords: "Hands-on wet lab experience in cell culture, viability assay, DNA extraction, gel electrophoresis, in-vitro fertilization in academic and biotech settings"
+
+      - name: Scientific Communication
+        icon: fa-solid fa-hashtag
+        keywords: "Peer-reviewed publications, manuscript writing, proof-reading grant applications, cross-functional collaboration with computational and experimental scientists, conference presentations"
+      
+      - name: Soft Skills
+        icon: fa-solid fa-hashtag
+        keywords: "Teamwork, communication with technical and non-technical audiences, project management, data management planning, organisation, and problem solving"
 
     Languages:
       - name: Armenian
@@ -168,25 +187,30 @@ cv:
         summary: "Native speaker"
 
     Interests:
-      - name: Physics
+      - name: Research interest
         icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Precision Medicine, Cancer, Genomics, Functional Genomics, Target Identification, Drug Discovery, Synthetic Lethality, Machine Learning, Bioinformatics"
 
-    # Certificates:
-    #   - name: Machine Learning
-    #     date: 2018-01-01
-    #     issuer: Stanford University
-    #     icon: fa-solid fa-location-dot
+      - name: Hobbies
+        icon: fa-solid fa-location-dot
+        keywords: "Piano, travelling, classic literature, swimming, pilates, wildlife and space documentaries"
 
-    #   - name: Quantum Computing
-    #     date: 2018-01-01
-    #     issuer: Stanford University
-    #     icon: fa-solid fa-tag
+    Certificates:
+      - name: From Curse to Cure — Mastering Dimensionality Reduction with Autoencoders (flagship school)
+        date: 2026
+        issuer: CECAM-IRL, Ireland
 
-    #   - name: Quantum Information
-    #     date: 2018-01-01
-    #     issuer: Stanford University
-    #     icon: fa-solid fa-envelope
+      - name: Introduction to Deep Learning, Autoencoders, and PyTorch (workshop)
+        date: 2025
+        issuer: NVIDIA Deep Learning Institute
+
+      - name: Docker and Singularity for Reproducible Research — Getting Started with Containers (course)
+        date: 2023
+        issuer: Swiss Institute of Bioinformatics
+
+      - name: Lean Six Sigma Yellow Belt
+        date: 2021
+        issuer: Irish Institute of Training and Development
 
     # Projects:
     #   - name: Quantum Computing
