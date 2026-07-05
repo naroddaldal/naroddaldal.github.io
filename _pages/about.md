@@ -27,6 +27,11 @@ latest_posts:
   limit: # leave blank to include all the blog posts
 ---
 
+<style>
+  /* Make the whole name (first + last) bold on the About page heading */
+  .post-header .post-title { font-weight: 700; }
+</style>
+
 Hi there, I'm Narod!
 
 I’m currently finalizing my PhD in Bioinformatics at University College Dublin, funded through a [Marie Skłodowska-Curie COFUND Doctoral Fellowship](https://doi.org/10.3030/945385) and the [Research Ireland Centre for Research Training in Genomics Data Science](https://genomicsdatascience.ie/).
