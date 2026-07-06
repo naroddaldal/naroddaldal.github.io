@@ -1,81 +1,52 @@
 ---
 layout: page
-title: project 1
-description: with background image
-img: assets/img/12.jpg
+title: Paralog Interaction Browser
+description: An interactive web platform developed as part of my PhD research to explore predicted synthetic lethal dependencies between paralogs across cancer cell lines. The platform supports target prioritization and design libraries for combinatorial CRISPR screens by making prediction scores accessible to experimental and computational researchers.
+img: assets/img/publication_preview/paralogmap.png
 importance: 1
-category: work
+category: projects
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Overview
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+The **Paralog Interaction Browser** ([paralogmap](https://cancergenetics.github.io/paralogmap/)) is a
+publicly accessible web platform I built to help experimental scientists translate machine-learning
+predictions of synthetic lethality into concrete CRISPR screen designs. It exposes the output of a
+classifier that predicts, for each of ~36,000 paralog pairs, whether the pair is likely to be
+synthetic lethal in each of 1,005 cancer cell lines.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+- **Live platform:** [cancergenetics.github.io/paralogmap](https://cancergenetics.github.io/paralogmap/)
+- **Source code:** [github.com/cancergenetics/paralogmap](https://github.com/cancergenetics/paralogmap)
+- **Underlying analysis:** [github.com/cancergenetics/context_specific_paralog_SL](https://github.com/cancergenetics/context_specific_paralog_SL)
+- **Preprint:** [bioRxiv 10.64898/2026.01.19.700065](https://doi.org/10.64898/2026.01.19.700065) — currently under review at *Genome Medicine*
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+## Motivation
 
-You can also put regular text between your rows of images, even citations {% cite einstein1950meaning %}.
-Say you wanted to write a bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+Combinatorial CRISPR screens have shown that many paralog pairs are synthetic lethal, but that these
+effects are highly context-specific — a pair that is essential in one cell line may be dispensable
+in another. To use paralogs as therapeutic targets, we need to know **which pairs are lethal in
+which contexts**. The Paralog Interaction Browser exposes those cell-line-specific predictions in a
+format that biologists can query directly.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+## What it does
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+- **Search by gene, pair, or cell line** — look up predictions for any paralog pair in any of the
+  1,005 profiled cell lines.
+- **Rank candidate targets** — sort pairs by predicted synthetic lethality score to prioritise
+  hits for combinatorial CRISPR screens.
+- **Explore feature contributions** — see which of the 16 input features (expression, essentiality,
+  PPI-partner behaviour, etc.) drive each prediction, via SHAP values.
+- **Design targeted screens** — filter to specific cancer types or genetic backgrounds so
+  experimental collaborators can build focused libraries without any coding.
 
-{% raw %}
+## Technical details
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+- **Model:** supervised classifier (Random Forest) trained on published combinatorial CRISPR screens,
+  with 16 engineered features per pair per cell line
+- **Data:** DepMap essentiality, CCLE transcriptomics, somatic mutation profiles, STRING
+  protein–protein interaction networks, Gene Ontology annotations
+- **Validation:** independent held-out screens; agreement between our predictions and published
+  experiments approaches the agreement observed across experiments themselves
+- **Deployment:** static site (GitHub Pages) with pre-computed predictions served client-side for
+  fast, dependency-free access
