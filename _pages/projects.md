@@ -1,11 +1,11 @@
 ---
 layout: page
-permalink: /presentations/
-title: presentations
-description: Short talks and poster presentations
+permalink: /portfolio/
+title: portfolio
+description: Selected projects, research outputs, and presentations from my PhD and MSc work, focused on bioinformatics, data science, machine learning, and cancer genomics.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [projects, presentations]
 horizontal: false
 ---
 
