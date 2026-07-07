@@ -2,7 +2,7 @@
 layout: page
 title: gRoR — balanced protein stability datasets
 description: Systematic ΔΔG enrichment code from my MSc thesis (JCIM 2022)
-img: assets/img/publication_preview/jcim.gif
+img: assets/img/publication_preview/gror.jpeg
 importance: 4
 category: projects
 related_publications: true
