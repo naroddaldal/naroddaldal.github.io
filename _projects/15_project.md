@@ -5,7 +5,7 @@ description: PhD project code for systematically identifying approved small-mole
 img: assets/img/publication_preview/druggable_paralogs.jpeg
 importance: 5
 category: projects
-related_publications: true
+related_publications: false
 ---
 
 ## Overview

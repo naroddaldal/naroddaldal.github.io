@@ -5,7 +5,7 @@ description: MSc thesis code for rebalancing protein-stability datasets to reduc
 img: assets/img/publication_preview/gror.jpeg
 importance: 6
 category: projects
-related_publications: true
+related_publications: false
 ---
 
 ## Overview

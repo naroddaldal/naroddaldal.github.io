@@ -5,7 +5,7 @@ description:
 img: assets/img/publication_preview/paralogmap.png
 importance: 1
 category: projects
-related_publications: true
+related_publications: false
 ---
 
 ## Overview
@@ -13,6 +13,7 @@ related_publications: true
 The **Paralog Interaction Browser** is a publicly accessible web platform developed as part of my PhD research to explore predicted synthetic lethal dependencies between paralogs across cancer cell lines. The platform supports target prioritization and design libra
 
 - **Web platform:** [cancergenetics.github.io/paralogmap](https://cancergenetics.github.io/paralogmap/)
+- **Repository:** [https://github.com/cancergenetics/paralogmap](https://github.com/cancergenetics/paralogmap)
 
 ## Motivation
 
