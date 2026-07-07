@@ -6,8 +6,7 @@ title: blank # keep as `blank` to display your full name; set to any string to d
 first_name: Narod
 #middle_name: 
 last_name: Daldal
-contact_note: >
-  You can even add a little note about which of these is the best way to reach you.
+contact_note:
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >

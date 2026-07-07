@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: Data Scientist, PhD in Bioinformatics at <a href='https://www.ucd.ie'>University College Dublin</a>
+subtitle: Data Scientist | PhD in Bioinformatics | Genomics Data Science | Machine Learning for Target and Drug Discovery
 
 profile:
   align: right
@@ -32,10 +32,8 @@ latest_posts:
   .post-header .post-title { font-weight: 700; }
 </style>
 
-Hi there, I'm Narod!
+I’m currently finalizing my PhD in Bioinformatics and Systems Biology at University College Dublin, funded by the [Marie Skłodowska-Curie Actions Doctoral Programme, INTEGRATE,](https://doi.org/10.3030/945385) and the [Research Ireland Centre for Research Training in Genomics Data Science](https://genomicsdatascience.ie/).
 
-I’m currently finalizing my PhD in Bioinformatics at University College Dublin, funded through a [Marie Skłodowska-Curie COFUND Doctoral Fellowship](https://doi.org/10.3030/945385) and the [Research Ireland Centre for Research Training in Genomics Data Science](https://genomicsdatascience.ie/).
-
-My research focuses on developing computational pipelines and machine learning models to analyze large-scale transcriptomics and functional genomics data, with the aim of identifying and prioritizing therapeutic targets in cancer. I am particularly interested in how genetic alterations create cellular vulnerabilities, and how computational methods can help uncover the mechanisms behind them. As part of my doctoral work, I built a publicly available web platform to support experimental scientists in designing libraries for combinatorial CRISPR screens; the related manuscript is currently under review at _Genome Medicine_.
+My research focuses on developing data ingestion pipelines and machine learning workflows in Python to analyze large-scale transcriptomics and functional genomics data, with the aim of identifying and prioritizing therapeutic targets in cancer. I am particularly interested in how genetic alterations create cellular vulnerabilities, and how computational methods can help uncover the mechanisms behind them. As part of my doctoral work, I built a publicly available web platform to support experimental scientists in designing libraries for combinatorial CRISPR screens; the related manuscript is currently under review at _Genome Medicine_.
 
 My experience spans academic and industry settings, combining wet-lab research, bioinformatics, machine learning, and scientific communication. I enjoy working across disciplines and collaborating with both computational and experimental scientists to translate complex biological data into insights that can guide target and biomarker identification.
