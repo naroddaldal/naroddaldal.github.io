@@ -1,6 +1,6 @@
 ---
 layout: page
-title: RF classifier to identify genetic interactions
+title: Random Forest classifier to identify genetic interactions
 description: PhD project code for predicting cell line specific synthetic lethality between paralog pairs
 img: assets/img/publication_preview/slpredictor.jpeg
 importance: 4
