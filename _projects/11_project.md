@@ -1,9 +1,9 @@
 ---
 layout: page
-title: gRoR — balanced protein stability datasets
-description: Systematic ΔΔG enrichment code from my MSc thesis (JCIM 2022)
+title: Systematic enrichment of protein stability datasets
+description: MSc thesis code for rebalancing protein-stability datasets to reduce bias in ΔΔG predictors (JCIM 2022)
 img: assets/img/publication_preview/gror.jpeg
-importance: 4
+importance: 6
 category: projects
 related_publications: true
 ---
@@ -24,20 +24,28 @@ peaked distributions and more balanced amino-acid frequencies.
 
 ## What it does
 
+- Curates the PON-tstab data set down to 1,451 mutations across 89 proteins by resolving
+  repetitions, residue-numbering mismatches, and missing PDB information.
+- Introduces a ternary labelling (neutral, destabilising, stabilising) with neutral defined as
+  ΔΔG ∈ [−0.5, 0.5] kcal/mol, so the dense neutral zone can be diagnosed as a bias rather than
+  merged into destabilising mutations.
 - Encodes mutations with either the 20-letter alphabet or a 4-letter reduced alphabet grouped by
-  side-chain biochemistry (aliphatic / aromatic / polar / charged).
-- Optionally sub-groups mutations by secondary structure (helix / sheet / loop, from DSSP) and
-  relative solvent-accessible surface area (three bins).
-- From every 2 kcal/mol window of each subgroup, selects three mutations (min, median, max ΔΔG),
-  systematically diluting the neutral peak.
+  side-chain biochemistry (aliphatic / aromatic / polar / charged), and optionally sub-groups
+  them by secondary structure (helix / sheet / loop, from DSSP) and three bins of relative
+  solvent-accessible surface area.
+- From every 2 kcal/mol window of each subgroup, selects three mutations (min, median, max
+  ΔΔG), systematically diluting the neutral peak.
 - Produces five enriched subsets (20L, 4L, 4L/SS, 4L/ASA, 4L/SS/ASA) with reduced kurtosis and
-  skewness relative to the parent PON-tstab.
+  skewness and more balanced amino-acid frequencies than the parent PON-tstab.
 
 ## Why it matters
 
 Benchmarking 11 stability predictors (DeepDDG, mCSM, INPS-3D, I-Mutant2.0/3.0, SDM, MAESTRO,
-PoPMuSiC, DUET, iStable, iDeepDDG) on the curated PON-tstab showed that all of them predict best
-in the dense neutral region and systematically under-estimate destabilising and over-estimate
-stabilising mutations. Errors on the enriched subsets were higher than on the parent set,
-confirming that `gRoR` concentrates the difficult-to-predict mutations — the ones that actually
-matter for disease variants.
+PoPMuSiC, DUET, iStable, iDeepDDG) on the curated PON-tstab shows that every predictor makes
+its smallest errors in the dense neutral zone, systematically under-estimates destabilising
+mutations, and over-estimates stabilising ones — regressing toward ΔΔG ≈ 0. The paper argues
+that peakedness (kurtosis) of the ΔΔG distribution is a data-set bias in its own right,
+distinct from the well-known destabilising/stabilising asymmetry (skewness). Errors on the
+enriched subsets were higher than on the parent set, confirming that the workflow concentrates
+the difficult-to-predict mutations — the ones with extreme ΔΔG that actually matter for
+disease variants.

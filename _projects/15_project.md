@@ -1,9 +1,9 @@
 ---
 layout: page
-title: druggable_paralogs — small-molecule drugs targeting synthetic lethal paralog pairs
-description: PhD project code for systematically identifying approved small-molecule drugs associated with synthetic lethal paralog targets
+title: Druggable synthetic lethal paralogs
+description: PhD project code for systematically identifying approved small-molecule drugs associated with synthetic lethal paralogs
 img: assets/img/publication_preview/druggable_paralogs.jpeg
-importance: 6
+importance: 5
 category: projects
 related_publications: true
 ---

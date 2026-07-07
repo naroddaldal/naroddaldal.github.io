@@ -5,17 +5,14 @@ description: CRISPR and Beyond — Perturbations at Scale to Understand Genomes,
 img: assets/img/publication_preview/crispr_con24.JPG
 importance: 3
 category: presentations
-related_publications: true
+related_publications: false
 ---
 
 ## Overview
 
-Poster presentation at **CRISPR and Beyond: Perturbations at Scale to Understand Genomes**
-(Wellcome Genome Campus, Hinxton, 2024) presenting early work on a machine-learning classifier
-for cell-line-specific synthetic lethality between paralog pairs — the foundation of what later
-became the [Paralog Interaction Browser](https://cancergenetics.github.io/paralogmap/).
+Poster presentation at the **CRISPR and Beyond: Perturbations at Scale to Understand Genomes**
+(Wellcome Genome Campus, Hinxton, 2024) presenting early work on a random forest classifier
+that predicts cell-line-specific synthetic lethality between paralog pairs.
 
 - **Conference:** CRISPR and Beyond — Perturbations at Scale to Understand Genomes (2024)
 - **Format:** poster presentation
-- **Follow-up:** invited short talk at the [2025 edition](/projects/2_project/) of the same conference
-- **Companion platform:** [cancergenetics.github.io/paralogmap](https://cancergenetics.github.io/paralogmap/)

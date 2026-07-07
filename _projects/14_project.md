@@ -1,9 +1,9 @@
 ---
 layout: page
-title: context_specific_SL_prediction — cell-line-specific paralog SL classifier
-description: PhD project code for predicting context-specific paralog synthetic lethality across 1,005 cancer cell lines
+title: Cell-line-specific paralog SL classifier
+description: PhD project code for predicting cell line specific synthetic lethality between paralog pairs
 img: assets/img/publication_preview/slpredictor.jpeg
-importance: 5
+importance: 4
 category: projects
 related_publications: true
 ---

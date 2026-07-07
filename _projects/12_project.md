@@ -3,22 +3,19 @@ layout: page
 title: Short talk
 description: Data Science for Planetary and Human Health, Novo Nordisk Foundation Science Cluster, Copenhagen, 2024
 img: assets/img/publication_preview/novonordisk.png
-importance: 3
+importance: 2
 category: presentations
-related_publications: true
+related_publications: false
 ---
 
 ## Overview
 
 Short talk at the **Data Science for Planetary and Human Health** symposium hosted by the
-Novo Nordisk Foundation Science Cluster (Copenhagen, 10–12 June 2024), presenting the
-machine-learning framework behind the
-[Paralog Interaction Browser](https://cancergenetics.github.io/paralogmap/).
+Novo Nordisk Foundation Science Cluster (Copenhagen, 10–12 June 2024)
 
 - **Symposium:** Data Science for Planetary and Human Health, Novo Nordisk Foundation Science Cluster
 - **Session:** Session 7 (Tuesday 11 June 2024), chaired by Richard Dennis
 - **Format:** short talk
-- **Companion platform:** [cancergenetics.github.io/paralogmap](https://cancergenetics.github.io/paralogmap/)
 
 ## Abstract
 

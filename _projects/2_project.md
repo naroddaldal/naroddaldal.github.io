@@ -3,9 +3,9 @@ layout: page
 title: Short talk
 description: CRISPR and Beyond — Perturbations at Scale to Understand Genomes, Wellcome Genome Campus, 2025
 img: assets/img/publication_preview/crispr_conference.JPG
-importance: 2
+importance: 1
 category: presentations
-related_publications: true
+related_publications: false
 ---
 
 ## Overview
