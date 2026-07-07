@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Short talk — CRISPR and Beyond, Wellcome Genome Campus, 2025
-description: A predicted cancer dependency map for paralog pairs
+title: Short talk
+description: CRISPR and Beyond — Perturbations at Scale to Understand Genomes, Wellcome Genome Campus, 2025
 img: assets/img/publication_preview/crispr_conference.JPG
 importance: 2
 category: presentations

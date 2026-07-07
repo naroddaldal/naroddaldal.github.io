@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Poster — CRISPR and Beyond, Wellcome Genome Campus, 2024
-description: Predicting context-specific synthetic lethality between paralogs in cancer
+title: Poster presentation
+description: CRISPR and Beyond — Perturbations at Scale to Understand Genomes, Wellcome Genome Campus, 2024
 img: assets/img/publication_preview/crispr_con24.JPG
 importance: 3
 category: presentations
