@@ -75,7 +75,7 @@ cv:
         location: United Kingdom
         start_date: "Apr 2024"
         end_date: "Jul 2024"
-        summary: "Completed a 3-month placement (April–July 2024) under the supervision of Dr. David Adams, investigating the role of paralogs in cancer and their potential as therapeutic targets."
+        summary: "Completed a 3-month placement (April–July 2024) under the supervision of Dr. David Adams, identify genetic interactions within and across cancer types and explore their potential as therapeutic targets."
         highlights:
           - Applied linear modelling to pan-cancer CRISPR screening data to identify cancer type specific genetic interactions across melanoma, lung, and pancreatic cell line model, supporting prioritisation of therapeutic targets
           - Quantified correlations between CRISPR dependency scores and RNA expression across cancer cell lines to identify gene expression associated factors contributing to cancer type specific genetic interactions.
@@ -101,6 +101,17 @@ cv:
           - Collaborated with third-party agencies, and sales teams to prepare and proofread technical marketing materials, including brochures and whitepapers for precision instruments.
           - Managed LinkedIn content campaigns by preparing structured weekly posts to increase brand awareness, and generate leads for the sales team.
           - Coordinated industry exhibitions and seminars across the power, chemistry, and pharma sectors, working with sales and marketing stakeholders to support customer outreach and product adoption.
+
+      - company: Michigan State University
+        position: Undergraduate Intern
+        location: East Lansing, MI, USA
+        start_date: "Jun 2013"
+        end_date: "Sept 2013"
+        summary: "Completed a 3-month research internship (June–September 2013) in the Cellular Reprogramming Laboratory of Dr. Jose Cibelli (Departments of Animal Science and Physiology), contributing to a study on whether ectopic OCT4 expression in bovine adult fibroblasts facilitates epigenetic reprogramming during somatic cell nuclear transfer (SCNT), benchmarked against in-vitro fertilization (IVF) controls."
+        highlights:
+          - Harvested bovine oocytes from ovaries and performed in-vitro maturation of cumulus–oocyte complexes to prepare them for downstream SCNT and IVF experiments.
+          - Performed bovine SCNT following the Ross and Cibelli (2010) protocol, verifying YFP-positive donor fibroblasts by fluorescence, transferring them into the perivitelline space of enucleated oocytes, and fusing, activating, and culturing reconstructed couplets to blastocyst stage for protein and RNA expression analysis.
+          - Executed IVF of matured oocytes in TALP-based fertilization medium with heparin-capacitated, Percoll-fractionated frozen–thawed semen, then denuded and cultured presumptive zygotes for 7 days to assess embryo development.
 
     # Volunteer:
     #   - company: People's Climate March
