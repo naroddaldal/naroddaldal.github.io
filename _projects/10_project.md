@@ -13,6 +13,3 @@ related_publications: false
 Poster presentation at the **CRISPR and Beyond: Perturbations at Scale to Understand Genomes**
 (Wellcome Genome Campus, Hinxton, 2024) presenting early work on a random forest classifier
 that predicts cell-line-specific synthetic lethality between paralog pairs.
-
-- **Conference:** CRISPR and Beyond — Perturbations at Scale to Understand Genomes (2024)
-- **Format:** poster presentation
