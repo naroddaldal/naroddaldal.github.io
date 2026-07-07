@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Druggable synthetic lethal paralogs
+title: Identify druggable synthetic lethal paralogs
 description: PhD project code for systematically identifying approved small-molecule drugs associated with synthetic lethal paralogs
 img: assets/img/publication_preview/druggable_paralogs.jpeg
 importance: 5
@@ -20,7 +20,7 @@ therapeutically relevant.
 
 ## What it does
 
-- Preprocesses paralog pair data from De Kegel et al. (2021), integrating sequence and
+- Preprocesses paralog pair data from [De Kegel et al. (2021)](https://doi.org/10.1016/j.cels.2021.08.006), integrating sequence and
   structural similarity scores and mapping identifiers across HGNC, Ensembl, and UniProt.
 - Characterises the landscape of approved small-molecule drugs that target paralog pairs, and
   tests for paralog enrichment within each protein family using Fisher's exact test.
